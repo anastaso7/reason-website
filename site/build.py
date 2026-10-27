@@ -7,13 +7,13 @@ vals=json.load(open('vals.json'))
 shutil.rmtree(OUT,ignore_errors=True); os.makedirs(OUT+'/img'); os.makedirs(OUT+'/el')
 
 # ---- images: blob id -> file by byte size
-sizes={12916:'mark',8854:'wordmark',303865:'reason-gym-petralona-personal-training.jpg',372142:'reason-gym-petralona-athens-space.jpg',315843:'reason-gym-dumbbells-arched-window.jpg',365978:'reason-gym-plants-corner.jpg',212897:'reason-gym-showers.jpg',163731:'reason-gym-coffee-corner.jpg',255274:'reason-gym-24-7-sign.jpg',181047:'reason-open-gym-poster.jpg',329459:'reason-gym-power-rack.jpg',425857:'reason-gym-lunge-training.jpg',275500:'reason-gym-cable-machine-window.jpg'}
+sizes={12916:'mark',8854:'wordmark',303865:'reason-gym-petralona-personal-training.jpg',372142:'reason-gym-petralona-athens-space.jpg',315843:'reason-gym-dumbbells-arched-window.jpg',365978:'reason-gym-plants-corner.jpg',212897:'reason-gym-showers.jpg',163731:'reason-gym-coffee-corner.jpg',255274:'reason-gym-24-7-sign.jpg',181047:'reason-open-gym-poster.jpg',329459:'reason-gym-power-rack.jpg',425857:'reason-gym-lunge-training.jpg',275500:'reason-gym-cable-machine-window.jpg',317585:'reason-gym-treadmill-rower.jpg'}
 byname={}
 for fn in os.listdir(R+'/assets'):
     p=R+'/assets/'+fn; sz=os.path.getsize(p)
     if sz in sizes: byname[sizes[sz]]=p
 blob={}
-ids={'1074ece099442bd1eda6fadcd3344454':12916,'547aff9dc08813eaf2dec66f1d5289f5':8854,'e07082efffe27bebbd48e81dd6f98cdf':303865,'835c9aab291456239d38a33dfa450239':372142,'75ee525c9391be74403673d0460b9c91':315843,'643091f27a24e9d7df5c4a3522041887':365978,'47962f3b552f5d654b3487c8f914072f':212897,'3a619f1c894cf9f05e837615c1847379':163731,'c2547dc1553740a95a799ceeccc8bccf':255274,'e1f87baeee6a1b6a907b467658492240':181047,'6e95c1c142719a7d09eee44b4b5a67db':329459,'a6f000d37c6b972b08818f9cd3772db8':425857,'7ac3e0a8a4b9381f2f15b7b17317df3f':275500}
+ids={'1074ece099442bd1eda6fadcd3344454':12916,'547aff9dc08813eaf2dec66f1d5289f5':8854,'e07082efffe27bebbd48e81dd6f98cdf':303865,'835c9aab291456239d38a33dfa450239':372142,'75ee525c9391be74403673d0460b9c91':315843,'643091f27a24e9d7df5c4a3522041887':365978,'47962f3b552f5d654b3487c8f914072f':212897,'3a619f1c894cf9f05e837615c1847379':163731,'c2547dc1553740a95a799ceeccc8bccf':255274,'e1f87baeee6a1b6a907b467658492240':181047,'6e95c1c142719a7d09eee44b4b5a67db':329459,'a6f000d37c6b972b08818f9cd3772db8':425857,'7ac3e0a8a4b9381f2f15b7b17317df3f':275500,'ba82992ace89659dce3b54e2403f4c2f':317585}
 for i,sz in ids.items(): blob[i]=sizes[sz]
 for k,v in blob.items():
     if k in ('1074ece099442bd1eda6fadcd3344454','547aff9dc08813eaf2dec66f1d5289f5'):
