@@ -1,0 +1,646 @@
+{
+ "en": {
+  "accent": "#2B3490",
+  "t": {
+   "nLogin": "Member login",
+   "nTry": "Try a free session",
+   "nMsg": "Message us",
+   "wa": "https://wa.me/306985642282?text=Hi%20Reason%2C%20I%27d%20like%20to%20know%20more",
+   "bkNew": "New here?",
+   "bkNewP": "Message us and we will set you up, including your free first group session.",
+   "bkMsg": "Message us →",
+   "nWhat": "What we do",
+   "nPricing": "Pricing",
+   "nSchedule": "Schedule",
+   "nFaq": "FAQ",
+   "nBook": "Book on Fitbook",
+   "hEyebrow": "Strength & conditioning · Petralona, Athens",
+   "h1a": "Find your",
+   "h1b": "reason.",
+   "hSub": "A local gym for strength and conditioning in Petralona. Train in small groups of up to six, or on your own in the Open Gym, day or night.",
+   "hBtn2": "See pricing",
+   "hMicro": "Open 24/7 with an active subscription, or by advance booking during working hours",
+   "aRack": "A power rack with stacked 20 kg and 10 kg plates and a dumbbell rack against a cream plaster wall",
+   "aLunge": "An athlete in a lunge with a dumbbell in the bright gym",
+   "aCable": "A member training on a cable machine beside a large window",
+   "aDumb": "Racks of black dumbbells beneath an arched green-framed window",
+   "bw1": "Lift.",
+   "bw2": "Condition.",
+   "bw3": "Reset.",
+   "bSide": "Strength, conditioning and a calm space to do it in.",
+   "s1": "people at most in the open gym at any time",
+   "s2": "people at most in a group session",
+   "s3": "open gym access with a booking",
+   "s4v": "Free",
+   "s4": "first group session, before you choose",
+   "wEyebrow": "What we do",
+   "wH2": "Three ways in. Choose how you want to train.",
+   "aSign": "Metal sign on the wall reading 24/7 gym, number 36",
+   "c1t": "24/7 Open Gym",
+   "c1p": "Your own space to train at any hour. Never more than three people at once, quality equipment and no waiting. Members book a slot in the Fitbook app and unlock the door from their phone.",
+   "c1m": "Drop-in €20 · Memberships from €50 a month",
+   "c2t": "Strength & Conditioning groups",
+   "c2p": "Coached sessions in groups of up to six: lift, carry, push, pull. Scaled to you, one focused hour at a time.",
+   "c2m": "First session free · then from €15 a class",
+   "aPers": "A member working on a cable machine with focus",
+   "c3t": "Personal sessions",
+   "c3p": "One-to-one or in pairs. Attentive, technique-first coaching and a plan shaped around your body and your goals.",
+   "c3m": "€30 solo · €40 for two",
+   "spEyebrow": "The space",
+   "spH2": "Designed to feel good the moment you walk in.",
+   "aSpace": "The Reason gym floor with racks, benches and a mirror wall under warm cove lighting",
+   "cap1": "Natural light, warm cove lighting",
+   "cap2": "Train by the window",
+   "aPlants": "Green plants and wicker baskets with a framed Reason kettlebell mark on the wall",
+   "cap3": "Plants and calm corners",
+   "aShower": "Concrete washbasin with copper pipes and hanging plants beside the showers",
+   "cap4": "Showers and fresh-up corner",
+   "aCoffee": "Coffee machine, plant and capsules on a white cabinet",
+   "cap5": "Coffee corner",
+   "oEyebrow": "Our way",
+   "oH2a": "A small gym,",
+   "oH2b": "kept small",
+   "oH2c": "on purpose.",
+   "oP": "We train because we love it, outdoors as much as indoors, and with friends. The gym is set up the same way: simple, uncrowded and properly equipped.",
+   "breIn": "Breathe in…",
+   "breOut": "Breathe out…",
+   "pr1t": "Up to six",
+   "pr1p": "Group sessions never go above six people, so your coach can actually watch your technique.",
+   "pr2t": "Three at most",
+   "pr2p": "The Open Gym takes three people at a time, and it rarely fills up.",
+   "pr3t": "Book, then walk in",
+   "pr3p": "Members reserve a slot in Fitbook, tap the lock icon in the app, and the door opens.",
+   "pr4t": "Bring a friend",
+   "pr4p": "Tell us in advance and you can train together.",
+   "pEyebrow": "Pricing",
+   "pH2": "Clear prices. No surprises.",
+   "tab1": "Open Gym 24/7",
+   "tab2": "Group training",
+   "tab3": "Personal",
+   "dropP": "A single 60-minute open gym session. Visiting Athens? You can also book a one-hour session on GetYourGuide or Airbnb.",
+   "lblMonthly": "Monthly · any time",
+   "lblOff": "Monthly · off-peak (23:00–07:00 & 13:00–16:00)",
+   "lblCommit": "Commit and save",
+   "openNote": "Every open gym session is 60 minutes. Door access opens 15 minutes before your slot and closes 15 minutes after it ends.",
+   "tryT": "Try it free",
+   "tryP": "Your first strength & conditioning group session is on us. Come and see if it feels right before you choose a pack.",
+   "tryBtn": "Message us for your free session",
+   "lblPacks": "Class packs · groups of up to six",
+   "persT1": "Personal · 1 person",
+   "persU1": "per session",
+   "persT2": "Semi-personal · 2 people",
+   "persU2": "per session, total",
+   "persNote": "One-to-one or in pairs, with your coach focused on your technique. Members book through Fitbook. New here? Message us.",
+   "scEyebrow": "Weekly schedule",
+   "scH2": "Strength & conditioning groups.",
+   "scP": "This timetable is for coached group classes: sessions start on the hour, last about an hour, and have up to six people. Members book their spot in the Fitbook app. New here? Message us, your first group session is free. There are no group classes on Sundays, but the open gym is always there.",
+   "morning": "Morning",
+   "evening": "Evening",
+   "ogP": "Every day, 24/7, no fixed timetable. Members book any slot in the Fitbook app.",
+   "scBtn": "Message us to join a class",
+   "fEyebrow": "Good to know",
+   "fH2": "Questions, answered.",
+   "fP": "Can't find what you need? Message us on Instagram and we'll help.",
+   "rvT": "See what our members and visitors say about Reason.",
+   "rvP": "See what members and visitors say about training at Reason.",
+   "rvBtn": "Read reviews on Google",
+   "bkEyebrow": "Book it your way",
+   "bkH2": "Find us wherever you are.",
+   "bkMembers": "For members",
+   "bkMembersP": "Groups, Open Gym slots and your door key. Needs a subscription and an account.",
+   "bkNow": "Open Fitbook →",
+   "bkVisitors": "For visitors",
+   "gygP": "Open gym access in Athens.",
+   "airP": "Open Gym Session in Athens.",
+   "bkView": "View listing →",
+   "bkFind": "Find & review",
+   "gP": "Directions, hours and reviews.",
+   "bkMaps": "Open in Maps →",
+   "aPoster": "The blue Reason open gym poster on the wall: open gym, all hours, strength and conditioning groups",
+   "clA": "Come as you are.",
+   "clB": "Your first group session is free.",
+   "ftFind": "Find us",
+   "ftAddr1": "Pandorou 36, Petralona",
+   "ftAddr2": "Athens 118 53, Greece",
+   "ftAddr3": "Open 24/7 with an active subscription",
+   "ftHi": "Say hi",
+   "ftEmail": "[YOUR EMAIL]",
+   "ftPhone": "[YOUR PHONE]"
+  },
+  "htmlLang": "en",
+  "langEnStyle": "border:0;cursor:pointer;font-family:Inter,system-ui,sans-serif;font-size:13px;font-weight:600;padding:8px 14px;border-radius:999px;min-height:36px;background:#2B3490;color:#FFFFFF;",
+  "langElStyle": "border:0;cursor:pointer;font-family:Inter,system-ui,sans-serif;font-size:13px;font-weight:600;padding:8px 14px;border-radius:999px;min-height:36px;background:transparent;color:#26262A;",
+  "isOpenTab": true,
+  "isGroupsTab": false,
+  "isPersonalTab": false,
+  "tabOpenStyle": "border:0;cursor:pointer;font-family:Inter,system-ui,sans-serif;font-size:15px;font-weight:600;padding:12px 22px;border-radius:999px;min-height:44px;background:#2B3490;color:#FFFFFF;",
+  "tabGroupsStyle": "border:0;cursor:pointer;font-family:Inter,system-ui,sans-serif;font-size:15px;font-weight:600;padding:12px 22px;border-radius:999px;min-height:44px;background:transparent;color:#26262A;",
+  "tabPersonalStyle": "border:0;cursor:pointer;font-family:Inter,system-ui,sans-serif;font-size:15px;font-weight:600;padding:12px 22px;border-radius:999px;min-height:44px;background:transparent;color:#26262A;",
+  "monthly": [
+   {
+    "name": "4 sessions",
+    "price": "€50",
+    "per": "€12.50 per session · per month",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "8 sessions",
+    "price": "€70",
+    "per": "€8.75 per session · per month",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "12 sessions",
+    "price": "€90",
+    "per": "€7.50 per session · per month",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   }
+  ],
+  "offpeak": [
+   {
+    "name": "8 sessions",
+    "price": "€50",
+    "per": "€6.25 per session · per month",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "12 sessions",
+    "price": "€70",
+    "per": "€5.83 per session · per month",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   }
+  ],
+  "commit": [
+   {
+    "name": "3 months",
+    "price": "€170",
+    "per": "24 sessions · €7.08 each",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "6 months",
+    "price": "€300",
+    "per": "48 sessions · €6.25 each",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "Annual",
+    "price": "€550",
+    "per": "96 sessions · €5.73 each",
+    "hl": true,
+    "badge": "Lowest per session",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#2B3490;color:#FFFFFF;",
+    "perStyle": "color:#FFFFFF;"
+   }
+  ],
+  "packs": [
+   {
+    "name": "1 class",
+    "price": "€15",
+    "per": "single session",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "4 classes",
+    "price": "€55",
+    "per": "€13.75 per class",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "8 classes",
+    "price": "€95",
+    "per": "€11.88 per class",
+    "hl": true,
+    "badge": "Most popular",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#2B3490;color:#FFFFFF;",
+    "perStyle": "color:#FFFFFF;"
+   },
+   {
+    "name": "12 classes",
+    "price": "€125",
+    "per": "€10.42 per class",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   }
+  ],
+  "days": [
+   {
+    "morning": "08:00\n09:00\n10:00\n11:00\n12:00",
+    "evening": "17:00\n18:00\n19:00\n20:00",
+    "hasEvening": true,
+    "name": "Monday"
+   },
+   {
+    "morning": "08:00\n09:00\n10:00\n11:00\n12:00",
+    "evening": "17:00\n18:00\n19:00\n20:00",
+    "hasEvening": true,
+    "name": "Tuesday"
+   },
+   {
+    "morning": "08:00\n09:00\n10:00\n11:00\n12:00",
+    "evening": "17:00\n18:00\n19:00\n20:00\n21:00",
+    "hasEvening": true,
+    "name": "Wednesday"
+   },
+   {
+    "morning": "08:00\n09:00\n10:00\n11:00\n12:00",
+    "evening": "17:00\n18:00\n19:00\n20:00",
+    "hasEvening": true,
+    "name": "Thursday"
+   },
+   {
+    "morning": "08:00\n09:00\n10:00\n11:00\n12:00",
+    "evening": "17:00\n18:00\n19:00\n20:00",
+    "hasEvening": true,
+    "name": "Friday"
+   },
+   {
+    "morning": "10:00\n11:00\n12:00\n13:00",
+    "evening": "",
+    "hasEvening": false,
+    "name": "Saturday"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "Can I try the gym before joining?",
+    "a": "Of course. Try the open gym with a single drop-in session, or join a group training session free before you choose a membership.",
+    "open": true,
+    "icon": "−"
+   },
+   {
+    "q": "How many people train at the same time?",
+    "a": "Groups are limited to six people, and the open gym allows a maximum of three at any time, a limit that is rarely even reached. That means a relaxed space, no crowds and no waiting for equipment.",
+    "open": false,
+    "icon": "+"
+   },
+   {
+    "q": "Is there someone at the gym 24/7?",
+    "a": "The gym is open 24/7 with a booking, but it is not staffed around the clock. For a membership, or any question before you join, message us on Instagram.",
+    "open": false,
+    "icon": "+"
+   },
+   {
+    "q": "How do I get in?",
+    "a": "With an active booking, a lock icon appears in the top-right corner of the Fitbook app. Tap it and the entrance unlocks automatically. Access opens 15 minutes before your session starts and closes 15 minutes after it ends.",
+    "open": false,
+    "icon": "+"
+   },
+   {
+    "q": "How do I book my workout?",
+    "a": "Members use the Fitbook app: choose your date and time and reserve your spot in a few taps. If you are new, message us on WhatsApp and we will set you up.",
+    "open": false,
+    "icon": "+"
+   },
+   {
+    "q": "How can I pay?",
+    "a": "You can pay at the gym, or online with a payment link we send you. The link is also in our Instagram bio.",
+    "open": false,
+    "icon": "+"
+   },
+   {
+    "q": "How long is a session?",
+    "a": "Group sessions last about an hour. Open gym sessions are 60 minutes, with a little extra time before and after to get ready.",
+    "open": false,
+    "icon": "+"
+   },
+   {
+    "q": "Can I bring a friend?",
+    "a": "Of course. Just let us know in advance so we can arrange your visit.",
+    "open": false,
+    "icon": "+"
+   }
+  ]
+ },
+ "el": {
+  "accent": "#2B3490",
+  "t": {
+   "nLogin": "Είσοδος μελών",
+   "nTry": "Δοκίμασε δωρεάν",
+   "nMsg": "Στείλε μας μήνυμα",
+   "wa": "https://wa.me/306985642282?text=%CE%93%CE%B5%CE%B9%CE%B1%20%CF%83%CE%B1%CF%82%2C%20%CE%B8%CE%AD%CE%BB%CF%89%20%CE%BD%CE%B1%20%CE%BC%CE%AC%CE%B8%CF%89%20%CF%80%CE%B5%CF%81%CE%B9%CF%83%CF%83%CF%8C%CF%84%CE%B5%CF%81%CE%B1",
+   "bkNew": "Νέος εδώ;",
+   "bkNewP": "Στείλε μας μήνυμα και θα σε οργανώσουμε, μαζί με τη δωρεάν πρώτη ομαδική.",
+   "bkMsg": "Στείλε μήνυμα →",
+   "nWhat": "Υπηρεσίες",
+   "nPricing": "Τιμές",
+   "nSchedule": "Πρόγραμμα",
+   "nFaq": "Ερωτήσεις",
+   "nBook": "Booking στο Fitbook",
+   "hEyebrow": "Strength & conditioning · Petralona, Athens",
+   "h1a": "Find your",
+   "h1b": "reason.",
+   "hSub": "Local γυμναστήριο στα Πετράλωνα για Strength & Conditioning. Προπονήσεις σε ομάδες μέχρι έξι άτομα ή στον δικό σου ρυθμό στο Open Gym, μέρα και νύχτα.",
+   "hBtn2": "Δες τις τιμές",
+   "hMicro": "Open 24/7 με ενεργή συνδρομή, ή με booking εκ των προτέρων τις ώρες λειτουργίας",
+   "aRack": "Rack με στοιβαγμένους δίσκους 20 και 10 κιλών και σταντ με αλτήρες μπροστά σε κρεμ τοίχο",
+   "aLunge": "Αθλητής σε lunge με αλτήρα στο φωτεινό γυμναστήριο",
+   "aCable": "Μέλος προπονείται σε cable machine δίπλα σε μεγάλο παράθυρο",
+   "aDumb": "Σταντ με μαύρους αλτήρες κάτω από αψιδωτό παράθυρο με πράσινο κούφωμα",
+   "bw1": "Lift.",
+   "bw2": "Condition.",
+   "bw3": "Reset.",
+   "bSide": "Δύναμη, αντοχή και ένας ήρεμος χώρος να τα κάνεις.",
+   "s1": "",
+   "s2": "",
+   "s3": "",
+   "s4v": "",
+   "s4": "",
+   "wEyebrow": "Υπηρεσίες",
+   "wH2": "Τρεις τρόποι να προπονηθείς. Διάλεξε τον δικό σου.",
+   "aSign": "Μεταλλική πινακίδα στον τοίχο με το κείμενο 24/7 gym και τον αριθμό 36",
+   "c1t": "24/7 Open Gym",
+   "c1p": "Ο δικός σου χώρος, όποια ώρα θέλεις. Ποτέ πάνω από τρία άτομα, καλός εξοπλισμός, καμία αναμονή. Τα μέλη κλείνουν θέση από την εφαρμογή Fitbook και ανοίγουν την πόρτα με το κινητό.",
+   "c1m": "Drop-in €20 · Συνδρομές από €50 τον μήνα",
+   "c2t": "Ομαδικά Strength & Conditioning",
+   "c2p": "Προπονήσεις με coach σε ομάδες μέχρι έξι άτομα: σηκώνεις, κουβαλάς, σπρώχνεις, τραβάς. Προσαρμοσμένες στο επίπεδό σου, μία συγκεντρωμένη ώρα τη φορά.",
+   "c2m": "Η πρώτη δωρεάν · μετά από €15 την προπόνηση",
+   "aPers": "Μέλος προπονείται συγκεντρωμένο σε cable machine",
+   "c3t": "Personal προπονήσεις",
+   "c3p": "Ένας προς έναν ή σε ζευγάρια. Έμφαση στην τεχνική και πρόγραμμα φτιαγμένο πάνω στους δικούς σου στόχους.",
+   "c3m": "€30 για έναν · €40 για δύο",
+   "spEyebrow": "Ο χώρος",
+   "spH2": "Ένας χώρος που νιώθεις καλά από την πρώτη στιγμή.",
+   "aSpace": "Ο χώρος του Reason με rack, πάγκους και καθρέφτη κάτω από ζεστό φωτισμό",
+   "cap1": "Φυσικό φως και ζεστός φωτισμός",
+   "cap2": "Προπόνηση δίπλα στο παράθυρο",
+   "aPlants": "Πράσινα φυτά και ψάθινα καλάθια με κάδρο με το σήμα του Reason στον τοίχο",
+   "cap3": "Φυτά και ήρεμες γωνιές",
+   "aShower": "Μπετονένιος νιπτήρας με χάλκινες σωληνώσεις και κρεμαστά φυτά δίπλα στις ντουζιέρες",
+   "cap4": "Ντουζιέρες και χώρος για φρεσκάρισμα",
+   "aCoffee": "Καφετιέρα, φυτό και κάψουλες πάνω σε λευκό ντουλάπι",
+   "cap5": "Γωνιά με καφέ",
+   "oEyebrow": "Ο τρόπος μας",
+   "oH2a": "Μικρό γυμναστήριο,",
+   "oH2b": "και το κρατάμε",
+   "oH2c": "μικρό επίτηδες.",
+   "oP": "Προπονούμαστε γιατί το αγαπάμε, στον ανοιχτό αέρα όσο και μέσα, και με φίλους. Έτσι είναι στημένος και ο χώρος: απλός, χωρίς κόσμο και με σωστό εξοπλισμό.",
+   "breIn": "Εισπνοή…",
+   "breOut": "Εκπνοή…",
+   "pr1t": "Έως έξι άτομα",
+   "pr1p": "Οι ομαδικές δεν ξεπερνούν τα έξι άτομα, ώστε ο coach να προλαβαίνει να σε προσέχει.",
+   "pr2t": "Το πολύ τρεις",
+   "pr2p": "Στο Open Gym χωράνε τρία άτομα τη φορά και σπάνια γεμίζει.",
+   "pr3t": "Booking και μπαίνεις",
+   "pr3p": "Τα μέλη κλείνουν θέση στο Fitbook, πατούν το εικονίδιο της κλειδαριάς στην εφαρμογή και η πόρτα ανοίγει.",
+   "pr4t": "Φέρε φίλο",
+   "pr4p": "Πες μας από πριν και προπονείστε μαζί.",
+   "pEyebrow": "Τιμές",
+   "pH2": "Καθαρές τιμές, χωρίς εκπλήξεις.",
+   "tab1": "Open Gym 24/7",
+   "tab2": "Ομαδικά",
+   "tab3": "Personal",
+   "dropP": "Μία προπόνηση 60 λεπτών στο Open Gym. Επισκέπτεσαι την Αθήνα; Μπορείς να κλείσεις και από το GetYourGuide ή το Airbnb.",
+   "lblMonthly": "Μηνιαία · όποια ώρα θέλεις",
+   "lblOff": "Μηνιαία · off-peak (23:00–07:00 & 13:00–16:00)",
+   "lblCommit": "Πακέτα διάρκειας",
+   "openNote": "Κάθε προπόνηση στο Open Gym διαρκεί 60 λεπτά. Η πόρτα ανοίγει 15 λεπτά πριν από την ώρα σου και κλείνει 15 λεπτά μετά το τέλος.",
+   "tryT": "Δοκίμασε δωρεάν",
+   "tryP": "Την πρώτη ομαδική προπόνηση την κερνάμε εμείς. Έλα να δεις αν σου ταιριάζει πριν διαλέξεις πακέτο.",
+   "tryBtn": "Στείλε μας για τη δωρεάν προπόνηση",
+   "lblPacks": "Πακέτα προπονήσεων · ομάδες έως έξι άτομα",
+   "persT1": "Personal · 1 άτομο",
+   "persU1": "ανά προπόνηση",
+   "persT2": "Semi-personal · 2 άτομα",
+   "persU2": "ανά προπόνηση, συνολικά",
+   "persNote": "Ένας προς έναν ή σε ζευγάρια, με τον coach επικεντρωμένο στην τεχνική σου. Τα μέλη κάνουν booking στο Fitbook. Νέος εδώ; Στείλε μας μήνυμα.",
+   "scEyebrow": "Εβδομαδιαίο πρόγραμμα",
+   "scH2": "Ομαδικά Strength & Conditioning",
+   "scP": "Το πρόγραμμα αφορά τις ομαδικές προπονήσεις με coach. Ξεκινάμε στην ώρα μας, κρατάμε περίπου μία ώρα και είμαστε μέχρι έξι άτομα. Τα μέλη κάνουν booking στο Fitbook. Νέος εδώ; Στείλε μας μήνυμα, η πρώτη ομαδική είναι δωρεάν. Τις Κυριακές δεν έχει ομαδικά, αλλά το Open Gym είναι πάντα ανοιχτό.",
+   "morning": "Πρωί",
+   "evening": "Απόγευμα",
+   "ogP": "Κάθε μέρα, 24/7, χωρίς σταθερό πρόγραμμα. Τα μέλη κάνουν booking όποια ώρα θέλουν στο Fitbook.",
+   "scBtn": "Στείλε μας για ομαδική",
+   "fEyebrow": "Καλό είναι να ξέρεις",
+   "fH2": "Ερωτήσεις & απαντήσεις",
+   "fP": "Δεν βρήκες αυτό που ψάχνεις; Στείλε μας μήνυμα στο Instagram και θα απαντήσουμε.",
+   "rvT": "Δες τι λένε τα μέλη και οι επισκέπτες μας για το Reason.",
+   "rvP": "Δες τι λένε τα μέλη και οι επισκέπτες μας για την προπόνηση στο Reason.",
+   "rvBtn": "Διάβασε τα reviews στο Google",
+   "bkEyebrow": "Κλείσε όπως σε βολεύει",
+   "bkH2": "Βρες μας όπου κι αν είσαι.",
+   "bkMembers": "Για μέλη",
+   "bkMembersP": "Ομαδικά, θέσεις Open Gym και το κλειδί σου. Θέλει συνδρομή και λογαριασμό.",
+   "bkNow": "Άνοιγμα Fitbook →",
+   "bkVisitors": "Για επισκέπτες",
+   "gygP": "Open Gym στην Αθήνα.",
+   "airP": "Open Gym Session στην Αθήνα.",
+   "bkView": "Δες την αγγελία →",
+   "bkFind": "Βρες μας στο Google",
+   "gP": "Οδηγίες, ωράριο και reviews.",
+   "bkMaps": "Άνοιγμα στους Χάρτες →",
+   "aPoster": "Η μπλε αφίσα του Reason στον τοίχο: Open Gym, όλες τις ώρες, ομαδικά Strength & Conditioning",
+   "clA": "Έλα όπως είσαι.",
+   "clB": "Η πρώτη ομαδική είναι δωρεάν.",
+   "ftFind": "Βρες μας",
+   "ftAddr1": "Πανδώρου 36, Πετράλωνα",
+   "ftAddr2": "Αθήνα 118 53",
+   "ftAddr3": "Open 24/7 με ενεργή συνδρομή",
+   "ftHi": "Πες μας γεια",
+   "ftEmail": "[ΤΟ EMAIL ΣΑΣ]",
+   "ftPhone": "[ΤΟ ΤΗΛΕΦΩΝΟ ΣΑΣ]"
+  },
+  "htmlLang": "el",
+  "langEnStyle": "border:0;cursor:pointer;font-family:Inter,system-ui,sans-serif;font-size:13px;font-weight:600;padding:8px 14px;border-radius:999px;min-height:36px;background:transparent;color:#26262A;",
+  "langElStyle": "border:0;cursor:pointer;font-family:Inter,system-ui,sans-serif;font-size:13px;font-weight:600;padding:8px 14px;border-radius:999px;min-height:36px;background:#2B3490;color:#FFFFFF;",
+  "isOpenTab": true,
+  "isGroupsTab": false,
+  "isPersonalTab": false,
+  "tabOpenStyle": "border:0;cursor:pointer;font-family:Inter,system-ui,sans-serif;font-size:15px;font-weight:600;padding:12px 22px;border-radius:999px;min-height:44px;background:#2B3490;color:#FFFFFF;",
+  "tabGroupsStyle": "border:0;cursor:pointer;font-family:Inter,system-ui,sans-serif;font-size:15px;font-weight:600;padding:12px 22px;border-radius:999px;min-height:44px;background:transparent;color:#26262A;",
+  "tabPersonalStyle": "border:0;cursor:pointer;font-family:Inter,system-ui,sans-serif;font-size:15px;font-weight:600;padding:12px 22px;border-radius:999px;min-height:44px;background:transparent;color:#26262A;",
+  "monthly": [
+   {
+    "name": "4 προπονήσεις",
+    "price": "€50",
+    "per": "€12,50 ανά προπόνηση · μηνιαίως",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "8 προπονήσεις",
+    "price": "€70",
+    "per": "€8,75 ανά προπόνηση · μηνιαίως",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "12 προπονήσεις",
+    "price": "€90",
+    "per": "€7,50 ανά προπόνηση · μηνιαίως",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   }
+  ],
+  "offpeak": [
+   {
+    "name": "8 προπονήσεις",
+    "price": "€50",
+    "per": "€6,25 ανά προπόνηση · μηνιαίως",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "12 προπονήσεις",
+    "price": "€70",
+    "per": "€5,83 ανά προπόνηση · μηνιαίως",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   }
+  ],
+  "commit": [
+   {
+    "name": "3 μήνες",
+    "price": "€170",
+    "per": "24 προπονήσεις · €7,08 η μία",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "6 μήνες",
+    "price": "€300",
+    "per": "48 προπονήσεις · €6,25 η μία",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "Ετήσιο",
+    "price": "€550",
+    "per": "96 προπονήσεις · €5,73 η μία",
+    "hl": true,
+    "badge": "Η καλύτερη τιμή ανά προπόνηση",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#2B3490;color:#FFFFFF;",
+    "perStyle": "color:#FFFFFF;"
+   }
+  ],
+  "packs": [
+   {
+    "name": "1 προπόνηση",
+    "price": "€15",
+    "per": "μία προπόνηση",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "4 προπονήσεις",
+    "price": "€55",
+    "per": "€13,75 ανά προπόνηση",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "8 προπονήσεις",
+    "price": "€95",
+    "per": "€11,88 ανά προπόνηση",
+    "hl": true,
+    "badge": "Πιο δημοφιλές",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#2B3490;color:#FFFFFF;",
+    "perStyle": "color:#FFFFFF;"
+   },
+   {
+    "name": "12 προπονήσεις",
+    "price": "€125",
+    "per": "€10,42 ανά προπόνηση",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   }
+  ],
+  "days": [
+   {
+    "morning": "08:00\n09:00\n10:00\n11:00\n12:00",
+    "evening": "17:00\n18:00\n19:00\n20:00",
+    "hasEvening": true,
+    "name": "Δευτέρα"
+   },
+   {
+    "morning": "08:00\n09:00\n10:00\n11:00\n12:00",
+    "evening": "17:00\n18:00\n19:00\n20:00",
+    "hasEvening": true,
+    "name": "Τρίτη"
+   },
+   {
+    "morning": "08:00\n09:00\n10:00\n11:00\n12:00",
+    "evening": "17:00\n18:00\n19:00\n20:00\n21:00",
+    "hasEvening": true,
+    "name": "Τετάρτη"
+   },
+   {
+    "morning": "08:00\n09:00\n10:00\n11:00\n12:00",
+    "evening": "17:00\n18:00\n19:00\n20:00",
+    "hasEvening": true,
+    "name": "Πέμπτη"
+   },
+   {
+    "morning": "08:00\n09:00\n10:00\n11:00\n12:00",
+    "evening": "17:00\n18:00\n19:00\n20:00",
+    "hasEvening": true,
+    "name": "Παρασκευή"
+   },
+   {
+    "morning": "10:00\n11:00\n12:00\n13:00",
+    "evening": "",
+    "hasEvening": false,
+    "name": "Σάββατο"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "Μπορώ να δοκιμάσω πριν γραφτώ;",
+    "a": "Φυσικά. Στο Open Gym μπορείς να δοκιμάσεις με μία drop-in προπόνηση, ενώ την πρώτη ομαδική την κάνεις δωρεάν πριν διαλέξεις συνδρομή.",
+    "open": true,
+    "icon": "−"
+   },
+   {
+    "q": "Πόσος κόσμος προπονείται ταυτόχρονα;",
+    "a": "Οι ομάδες έχουν μέχρι έξι άτομα και το Open Gym το πολύ τρία, όριο που σπάνια φτάνουμε. Έτσι δεν έχει πολυκοσμία ούτε αναμονή για εξοπλισμό.",
+    "open": false,
+    "icon": "+"
+   },
+   {
+    "q": "Υπάρχει κάποιος στο γυμναστήριο όλο το 24ωρο;",
+    "a": "Το γυμναστήριο είναι ανοιχτό 24/7 με booking, αλλά δεν υπάρχει προσωπικό όλο το 24ωρο. Για συνδρομή ή όποια απορία έχεις πριν γραφτείς, στείλε μας μήνυμα στο Instagram.",
+    "open": false,
+    "icon": "+"
+   },
+   {
+    "q": "Πώς μπαίνω;",
+    "a": "Όταν έχεις ενεργό booking, εμφανίζεται ένα εικονίδιο κλειδαριάς πάνω δεξιά στην εφαρμογή Fitbook. Το πατάς και η πόρτα ξεκλειδώνει. Η πρόσβαση ανοίγει 15 λεπτά πριν ξεκινήσεις και κλείνει 15 λεπτά μετά το τέλος.",
+    "open": false,
+    "icon": "+"
+   },
+   {
+    "q": "Πώς κάνω booking;",
+    "a": "Τα μέλη χρησιμοποιούν την εφαρμογή Fitbook: διαλέγεις μέρα και ώρα και κλείνεις θέση με λίγα πατήματα. Αν είσαι νέος, στείλε μας μήνυμα στο WhatsApp και θα σε οργανώσουμε.",
+    "open": false,
+    "icon": "+"
+   },
+   {
+    "q": "Πώς πληρώνω;",
+    "a": "Στο γυμναστήριο ή online, με link πληρωμής που σου στέλνουμε. Θα βρεις το link και στο bio μας στο Instagram.",
+    "open": false,
+    "icon": "+"
+   },
+   {
+    "q": "Πόσο κρατάει μια προπόνηση;",
+    "a": "Οι ομαδικές κρατάνε περίπου μία ώρα. Στο Open Gym η προπόνηση είναι 60 λεπτά, με λίγο χρόνο πριν και μετά για να ετοιμαστείς.",
+    "open": false,
+    "icon": "+"
+   },
+   {
+    "q": "Μπορώ να φέρω φίλο ή φίλη;",
+    "a": "Φυσικά, απλά πες μας το από πριν για να το κανονίσουμε.",
+    "open": false,
+    "icon": "+"
+   }
+  ]
+ }
+}
