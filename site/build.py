@@ -99,7 +99,7 @@ def page(lang):
     title=t_title[lang]; desc=t_desc[lang]
     faq={"@context":"https://schema.org","@type":"FAQPage","inLanguage":lang,"mainEntity":[{"@type":"Question","name":f['q'],"acceptedAnswer":{"@type":"Answer","text":f['a']}} for f in v['faqs']]}
     biz={"@context":"https://schema.org","@type":["ExerciseGym","SportsActivityLocation"],"@id":SITE+"/#gym","name":"Reason Fitness Concept","url":url,
-     "description":desc,"telephone":"+30 698 564 2282","priceRange":"€20–€550","image":SITE+"/img/reason-gym-petralona-athens-space.jpg","logo":SITE+"/img/mark.png",
+     "description":desc,"telephone":"+30 698 564 2282","email":"contact@reasonconcept.gr","priceRange":"€20–€550","image":SITE+"/img/reason-gym-petralona-athens-space.jpg","logo":SITE+"/img/mark.png",
      "address":{"@type":"PostalAddress","streetAddress":"Pandorou 36","addressLocality":"Athens","addressNeighborhood":"Petralona","postalCode":"118 53","addressCountry":"GR"},
      "hasMap":"https://www.google.com/maps/search/?api=1&query=Reason+Fitness+Concept+Pandorou+36+Athens",
      "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},
