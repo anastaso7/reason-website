@@ -154,6 +154,7 @@ html{{scroll-behavior:smooth}}
 <body>
 '''
     js='''<script>
+document.querySelectorAll('.tn-panel a').forEach(function(a){a.addEventListener('click',function(){var d=a.closest('details');if(d)d.removeAttribute('open');});});
 document.querySelectorAll('.tab').forEach(function(b){b.addEventListener('click',function(){
 document.querySelectorAll('.tab').forEach(function(x){x.setAttribute('aria-selected',x===b?'true':'false')});
 document.querySelectorAll('.panel').forEach(function(p){p.hidden=p.getAttribute('data-panel')!==b.getAttribute('data-tab')});});});
