@@ -21,9 +21,10 @@ for k,v in blob.items():
         blob[k]=name
     else:
         im=Image.open(byname[v]).convert('RGB'); im.thumbnail((1600,1600)); im.save(OUT+'/img/'+v,quality=82,optimize=True,progressive=True)
-# favicons
-fav=Image.open('fav.png'); fav.save(OUT+'/favicon.png'); fav.resize((32,32),Image.LANCZOS).save(OUT+'/favicon-32.png'); 
-Image.open('fav.png').resize((180,180),Image.LANCZOS).save(OUT+'/apple-touch-icon.png')
+# favicons (from 512px master; Google needs a multiple of 48px)
+fav=Image.open('fav-512.png').convert('RGB')
+for n,s in (('favicon-32.png',32),('favicon-48.png',48),('favicon-192.png',192),('favicon.png',192),('apple-touch-icon.png',180)): fav.resize((s,s),Image.LANCZOS).save(OUT+'/'+n)
+fav.save(OUT+'/favicon.ico',sizes=[(48,48),(32,32),(16,16)])
 
 # ---- template
 body=re.search(r'</helmet>(.*?)</x-dc>',src,re.S).group(1)
@@ -131,8 +132,9 @@ def page(lang):
 <meta name="twitter:card" content="summary_large_image">
 <meta name="geo.region" content="GR-I"><meta name="geo.placename" content="Petralona, Athens">
 <meta name="theme-color" content="#F6F0E4">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-<link rel="icon" type="image/png" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,500;1,300&family=Source+Serif+4:ital,wght@0,300;0,500;1,300&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
