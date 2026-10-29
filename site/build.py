@@ -99,12 +99,12 @@ def page(lang):
     title=t_title[lang]; desc=t_desc[lang]
     faq={"@context":"https://schema.org","@type":"FAQPage","inLanguage":lang,"mainEntity":[{"@type":"Question","name":f['q'],"acceptedAnswer":{"@type":"Answer","text":f['a']}} for f in v['faqs']]}
     biz={"@context":"https://schema.org","@type":["ExerciseGym","SportsActivityLocation"],"@id":SITE+"/#gym","name":"Reason Fitness Concept","url":url,
-     "description":desc,"telephone":"+30 698 564 2282","priceRange":"€15–€550","image":SITE+"/img/reason-gym-petralona-athens-space.jpg","logo":SITE+"/img/mark.png",
+     "description":desc,"telephone":"+30 698 564 2282","priceRange":"€20–€550","image":SITE+"/img/reason-gym-petralona-athens-space.jpg","logo":SITE+"/img/mark.png",
      "address":{"@type":"PostalAddress","streetAddress":"Pandorou 36","addressLocality":"Athens","addressNeighborhood":"Petralona","postalCode":"118 53","addressCountry":"GR"},
      "hasMap":"https://www.google.com/maps/search/?api=1&query=Reason+Fitness+Concept+Pandorou+36+Athens",
      "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"},
      "knowsLanguage":["en","el"],
-     "makesOffer":[{"@type":"Offer","name":"Open Gym drop-in","price":"20","priceCurrency":"EUR"},{"@type":"Offer","name":"Group class (single)","price":"15","priceCurrency":"EUR"},{"@type":"Offer","name":"Personal session","price":"30","priceCurrency":"EUR"},{"@type":"Offer","name":"Semi-personal session (2 people)","price":"40","priceCurrency":"EUR"}],
+     "makesOffer":[{"@type":"Offer","name":"Open Gym drop-in","price":"20","priceCurrency":"EUR"},{"@type":"Offer","name":"Group class drop-in","price":"20","priceCurrency":"EUR"},{"@type":"Offer","name":"Personal session","price":"40","priceCurrency":"EUR"},{"@type":"Offer","name":"Semi-personal session (2 people)","price":"50","priceCurrency":"EUR"}],
      "sameAs":["https://www.instagram.com/reason.concept/","https://www.getyourguide.com/athens-l91/athens-open-gym-access-at-reason-fitness-concept-t1303870","https://www.airbnb.com/services/7073539"]}
     e=lambda s: html.escape(s,quote=True)
     ld=lambda o:'<script type="application/ld+json">'+json.dumps(o,ensure_ascii=False)+'</script>'
