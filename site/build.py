@@ -125,7 +125,7 @@ def page(lang):
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{SITE}/img/reason-gym-petralona-athens-space.jpg">
+<meta property="og:image" content="{SITE}/img/reason-gym-petralona-athens-space.jpg"><meta property="og:image:width" content="1600"><meta property="og:image:height" content="1067"><meta name="twitter:image" content="{SITE}/img/reason-gym-petralona-athens-space.jpg">
 <meta property="og:locale" content="{'en_GB' if lang=='en' else 'el_GR'}">
 <meta property="og:locale:alternate" content="{'el_GR' if lang=='en' else 'en_GB'}">
 <meta name="twitter:card" content="summary_large_image">
@@ -168,6 +168,7 @@ t_desc={'en':'24/7 Open Gym and Strength & Conditioning small-group and personal
  'el':'Open Gym 24/7 και ομαδικά ή personal Strength & Conditioning στα Πετράλωνα, Αθήνα. Το πολύ 3 άτομα στο Open Gym, έως 6 στις ομάδες. Η πρώτη ομαδική δωρεάν. Πανδώρου 36.'}
 open(OUT+'/index.html','w').write(page('en'))
 open(OUT+'/el/index.html','w').write(page('el'))
+open(OUT+'/404.html','w').write('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Page not found | Reason Fitness Concept</title><link rel="icon" href="/favicon-32.png"><style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#F6F1E6;color:#26262A;font-family:Inter,system-ui,sans-serif;text-align:center;padding:24px}h1{font-family:Georgia,serif;font-weight:300;font-size:48px;margin:0 0 12px}a{color:#2B3490;font-weight:600}</style></head><body><div><h1>Find your reason.</h1><p>This page doesn\'t exist. / Η σελίδα δεν υπάρχει.</p><p><a href="/">Reason Fitness Concept</a> &middot; <a href="/el/">Ελληνικά</a></p></div></body></html>')
 open(OUT+'/robots.txt','w').write(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
 open(OUT+'/sitemap.xml','w').write(f'''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
