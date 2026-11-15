@@ -1,6 +1,6 @@
 # Privacy policy content (EN/EL). GEMI number: set GEMI env var or edit GEMI below.
 import os
-GEMI = os.environ.get('GEMI','').strip()
+GEMI = os.environ.get('GEMI','180058103000').strip()
 
 EL = {
  'lang':'el','title':'Πολιτική απορρητου | Reason Fitness Concept','h1':'Πολιτική απορρητου','brand':'REASON FITNESS CONCEPT',
