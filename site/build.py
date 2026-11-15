@@ -1,5 +1,6 @@
 import re, json, os, sys, shutil, html
 from PIL import Image
+import consent
 SITE=(os.environ.get('SITE_URL') or 'https://YOUR-DOMAIN.gr').rstrip('/')
 R='../reason'; OUT='dist'
 src=open(R+'/project/Main.dc.html').read()
@@ -114,6 +115,7 @@ def page(lang):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{consent.head()}
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -153,7 +155,7 @@ html{{scroll-behavior:smooth}}
 </head>
 <body>
 '''
-    js='''<script>
+    js=consent.body(lang)+'''<script>
 document.querySelectorAll('.tn-panel a').forEach(function(a){a.addEventListener('click',function(){var d=a.closest('details');if(d)d.removeAttribute('open');});});
 document.querySelectorAll('.tab').forEach(function(b){b.addEventListener('click',function(){
 document.querySelectorAll('.tab').forEach(function(x){x.setAttribute('aria-selected',x===b?'true':'false')});

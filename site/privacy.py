@@ -1,5 +1,6 @@
 # Privacy policy content (EN/EL). GEMI number: set GEMI env var or edit GEMI below.
 import os
+import consent
 GEMI = os.environ.get('GEMI','180058103000').strip()
 
 EL = {
@@ -63,6 +64,7 @@ def render(c, site, path_self, path_other_lang_url):
     url=site+path_self
     alt_en=site+'/privacy/'; alt_el=site+'/el/privacy/'
     return f'''<!doctype html><html lang="{L}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+{consent.head()}
 <title>{esc(c['title'])}</title><meta name="description" content="{esc(c['h1'])} - Reason Fitness Concept, Pandorou 36, Petralona, Athens.">
 <link rel="canonical" href="{url}"><link rel="alternate" hreflang="en" href="{alt_en}"><link rel="alternate" hreflang="el" href="{alt_el}"><link rel="alternate" hreflang="x-default" href="{alt_en}">
 <link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -82,4 +84,4 @@ p{{margin:8px 0}}ul{{margin:8px 0;padding-left:22px}}li{{margin:4px 0}}.ent{{bac
 </style></head><body><div class="wrap">
 <div class="top"><a href="{home}">{esc(c['back'])}</a><a href="{other_href}" hreflang="{'el' if L=='en' else 'en'}">{esc(other_label)}</a></div>
 <div class="brand" style="margin-top:36px">{esc(c['brand'])}</div><h1>{esc(c['h1'])}</h1><p class="upd">{esc(c['updated'])}</p>
-{body}<p class="foot">{esc(c['foot'])}</p></div></body></html>'''
+{body}<p class="foot">{esc(c['foot'])}</p></div>{consent.body(L)}</body></html>'''
