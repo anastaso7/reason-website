@@ -2,4 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url><loc>https://reasonconcept.gr/</loc><xhtml:link rel="alternate" hreflang="en" href="https://reasonconcept.gr/"/><xhtml:link rel="alternate" hreflang="el" href="https://reasonconcept.gr/el/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://reasonconcept.gr/"/></url>
 <url><loc>https://reasonconcept.gr/el/</loc><xhtml:link rel="alternate" hreflang="en" href="https://reasonconcept.gr/"/><xhtml:link rel="alternate" hreflang="el" href="https://reasonconcept.gr/el/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://reasonconcept.gr/"/></url>
+<url><loc>https://reasonconcept.gr/privacy/</loc><xhtml:link rel="alternate" hreflang="en" href="https://reasonconcept.gr/privacy/"/><xhtml:link rel="alternate" hreflang="el" href="https://reasonconcept.gr/el/privacy/"/></url>
+<url><loc>https://reasonconcept.gr/el/privacy/</loc><xhtml:link rel="alternate" hreflang="en" href="https://reasonconcept.gr/privacy/"/><xhtml:link rel="alternate" hreflang="el" href="https://reasonconcept.gr/el/privacy/"/></url>
 </urlset>

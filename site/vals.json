@@ -127,6 +127,8 @@
    "ftAddr2": "Athens 118 53, Greece",
    "ftAddr3": "Open 24/7 with an active subscription",
    "ftHi": "Say hi",
+   "ftPrivacy": "Privacy Policy",
+   "privUrl": "/privacy/",
    "ftEmail": "contact@reasonconcept.gr",
    "ftPhone": "[YOUR PHONE]"
   },
@@ -452,6 +454,8 @@
    "ftAddr2": "Αθήνα 118 53",
    "ftAddr3": "Open 24/7 με ενεργή συνδρομή",
    "ftHi": "Πες μας γεια",
+   "ftPrivacy": "Πολιτική απορρητου",
+   "privUrl": "/el/privacy/",
    "ftEmail": "contact@reasonconcept.gr",
    "ftPhone": "[ΤΟ ΤΗΛΕΦΩΝΟ ΣΑΣ]"
   },

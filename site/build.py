@@ -172,11 +172,18 @@ t_desc={'en':'24/7 Open Gym and Strength & Conditioning small-group and personal
 open(OUT+'/index.html','w').write(page('en'))
 open(OUT+'/el/index.html','w').write(page('el'))
 open(OUT+'/404.html','w').write('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Page not found | Reason Fitness Concept</title><link rel="icon" href="/favicon-32.png"><style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#F6F1E6;color:#26262A;font-family:Inter,system-ui,sans-serif;text-align:center;padding:24px}h1{font-family:Georgia,serif;font-weight:300;font-size:48px;margin:0 0 12px}a{color:#2B3490;font-weight:600}</style></head><body><div><h1>Find your reason.</h1><p>This page doesn\'t exist. / Η σελίδα δεν υπάρχει.</p><p><a href="/">Reason Fitness Concept</a> &middot; <a href="/el/">Ελληνικά</a></p></div></body></html>')
+
+import privacy
+for _c,_p in ((privacy.EN,'/privacy/'),(privacy.EL,'/el/privacy/')):
+    os.makedirs(OUT+_p,exist_ok=True)
+    open(OUT+_p+'index.html','w').write(privacy.render(_c,SITE,_p,''))
 open(OUT+'/robots.txt','w').write(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
 open(OUT+'/sitemap.xml','w').write(f'''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url><loc>{SITE}/</loc><xhtml:link rel="alternate" hreflang="en" href="{SITE}/"/><xhtml:link rel="alternate" hreflang="el" href="{SITE}/el/"/><xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/"/></url>
 <url><loc>{SITE}/el/</loc><xhtml:link rel="alternate" hreflang="en" href="{SITE}/"/><xhtml:link rel="alternate" hreflang="el" href="{SITE}/el/"/><xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/"/></url>
+<url><loc>{SITE}/privacy/</loc><xhtml:link rel="alternate" hreflang="en" href="{SITE}/privacy/"/><xhtml:link rel="alternate" hreflang="el" href="{SITE}/el/privacy/"/></url>
+<url><loc>{SITE}/el/privacy/</loc><xhtml:link rel="alternate" hreflang="en" href="{SITE}/privacy/"/><xhtml:link rel="alternate" hreflang="el" href="{SITE}/el/privacy/"/></url>
 </urlset>
 ''')
 open(OUT+'/_headers','w').write('/img/*\n  Cache-Control: public, max-age=31536000, immutable\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n')
