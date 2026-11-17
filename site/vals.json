@@ -162,6 +162,13 @@
     "per": "€7.50 per session · per month",
     "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
     "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "16 sessions",
+    "price": "€110",
+    "per": "€6.88 per session · per month",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
    }
   ],
   "offpeak": [
@@ -487,6 +494,13 @@
     "name": "12 προπονήσεις",
     "price": "€90",
     "per": "€7,50 ανά προπόνηση · μηνιαίως",
+    "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
+    "perStyle": "color:#5E5A52;"
+   },
+   {
+    "name": "16 προπονήσεις",
+    "price": "€110",
+    "per": "€6,88 ανά προπόνηση · μηνιαίως",
     "cardStyle": "position:relative;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:10px;background:#FBF7EE;color:#26262A;border:1px solid #E4DAC7;",
     "perStyle": "color:#5E5A52;"
    }
